@@ -2,21 +2,24 @@ import { Title } from "../../atoms/typography";
 import GithubIcon from "../../assets/githubIcon.png";
 import LinkedinIcon from "../../assets/linkedinLogo.png";
 import TwitterIcon from "../../assets/twitterLogo.png";
+import CalendlyIcon from "../../assets/calendlyIcon.png";
 
 type Props = {
   src: string;
   link: string;
 };
 
-export const ContactOption = ({ src, link }: Props) => (
-  <a href={link} target="_blank" rel="noreferrer">
-    <img
-      src={src}
-      alt="tech-logo"
-      className="h-12 w-12 shadow-lg rounded-full mr-4"
-    />
-  </a>
-);
+export const ContactOption = ({ src, link }: Props) => {
+  return (
+    <a href={link} target="_blank" rel="noreferrer">
+      <img
+        src={src}
+        alt="tech-logo"
+        className="h-12 w-12 shadow-lg rounded-full mr-4"
+      />
+    </a>
+  );
+};
 
 export const Contact = () => {
   return (
@@ -31,6 +34,10 @@ export const Contact = () => {
         <ContactOption
           src={LinkedinIcon}
           link="https://www.linkedin.com/in/marlon-wiprud-892108148/"
+        />
+        <ContactOption
+          src={CalendlyIcon}
+          link="https://calendly.com/marlon-wiprud/30min"
         />
       </div>
     </div>
