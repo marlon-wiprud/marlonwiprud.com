@@ -24,7 +24,9 @@ export const ContactOption = ({ src, link }: Props) => {
 export const Contact = () => {
   return (
     <div className="mt-10 flex flex-col w-full max-w-2xl">
-      <Title className="mb-4">Contact</Title>
+      <Title fontWeight="bold" className="mb-4">
+        Contact
+      </Title>
       <div className="flex flex-row">
         <ContactOption
           src={GithubIcon}

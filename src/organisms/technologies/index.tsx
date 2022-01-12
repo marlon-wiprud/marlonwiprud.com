@@ -32,7 +32,9 @@ export const Tag: React.FC = ({ children }) => {
 export const Technologies = () => {
   return (
     <div className="mt-10 flex flex-col w-full max-w-2xl">
-      <Title className="mb-4">Technologies</Title>
+      <Title fontWeight="bold" className="mb-4">
+        Technologies
+      </Title>
       <div className="flex flex-row flex-wrap">
         <Tag>Golang</Tag>
         <Tag>NodeJS</Tag>

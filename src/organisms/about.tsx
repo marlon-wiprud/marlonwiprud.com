@@ -7,7 +7,9 @@ type Props = {
 export const About = ({ style }: Props) => {
   return (
     <div className="mt-10 flex flex-col max-w-2xl w-full" style={style}>
-      <Title className="mb-4">About</Title>
+      <Title fontWeight="bold" className="mb-4">
+        About
+      </Title>
       <Body className="mb-2">
         Hi! My name is Marlon Wiprud, a full stack software engineer based in
         NYC. Im passionate about writing well crafted software, and love

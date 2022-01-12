@@ -5,6 +5,7 @@ type TypographyProps = {
   size?: string;
   color?: string;
   className?: string;
+  fontWeight?: "bold" | "regular";
 };
 
 const fontMap: { [key: string]: string } = {
@@ -18,9 +19,10 @@ export const TypographyBase: React.FC<TypographyProps> = ({
   size,
   color,
   className = "",
+  fontWeight,
 }) => (
   <p
-    style={{ fontSize: size, color }}
+    style={{ fontSize: size, color, fontWeight }}
     className={`${fontMap[font || "roboto-mono"]} ` + className}
   >
     {children}
