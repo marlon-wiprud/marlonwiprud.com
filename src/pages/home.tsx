@@ -9,7 +9,7 @@ export const PageHome = () => {
     <TemplatePage>
       <div className="w-full max-w-2xl">
         <Terminal
-          style={{ height: 100, marginTop: "10%" }}
+          style={{ height: 100 }}
           history={["Welcome to  marlonwiprud.com..."]}
         />
       </div>

@@ -5,7 +5,7 @@ export const Background: React.FC = ({ children }) => {
   return (
     <div
       style={{ backgroundColor: theme.backgroundPrimary }}
-      className="h-full w-full flex flex-col items-center"
+      className="w-full flex flex-col items-center min-h-screen"
     >
       {children}
     </div>

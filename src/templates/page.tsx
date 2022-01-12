@@ -3,11 +3,7 @@ import { TemplatePageContent } from "../templates/pageContent";
 
 export const TemplatePage: React.FC = ({ children }) => {
   return (
-    <div
-      style={{
-        height: "100vh",
-      }}
-    >
+    <div className="min-h-screen">
       <Background>
         <TemplatePageContent>{children}</TemplatePageContent>
       </Background>

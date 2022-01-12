@@ -16,6 +16,7 @@ export const Terminal = ({ style, history }: Props) => {
     setLines([
       ...lines,
       <TypedText
+        key={lineCount}
         body={history[lineCount]}
         onDone={() => setLineCount(lineCount + 1)}
       />,
