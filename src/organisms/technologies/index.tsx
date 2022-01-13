@@ -61,6 +61,7 @@ export const Technologies = () => {
         <Tag>Typescript</Tag>
         <Tag>RPC/GRPC</Tag>
         <Tag>Ethereum</Tag>
+        <Tag>Redux</Tag>
       </div>
     </div>
   );
