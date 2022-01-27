@@ -39,7 +39,7 @@ export const Contact = () => {
         />
         <ContactOption
           src={CalendlyIcon}
-          link="https://calendly.com/marlon-wiprud/30min"
+          link="https://calendly.com/marlon-wiprud/15min"
         />
       </div>
     </div>
